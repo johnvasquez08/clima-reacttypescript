@@ -1,0 +1,23 @@
+.container {
+    background-color: var(--white);
+    color: black;
+    border-radius: 1rem;
+    text-align: center;
+    padding: 1rem;
+}
+.current{
+    font-size: 6rem;
+    font-weight: 900;
+    margin: 0;
+}
+.details{ 
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+}
+.details p {
+    font-weight: 900;
+}
+.details span {
+    font-weight: 400;
+}
