@@ -23,7 +23,7 @@ function App() {
         <WeatherDetail
           weather={weather}
         />}
-        {notFound && <Alert>Ciudad no encontrada</Alert>}
+        {notFound ? <Alert>Ciudad no encontrada</Alert> : ''}
 
         
       </div>

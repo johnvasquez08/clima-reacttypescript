@@ -52,6 +52,7 @@ export default function useWeater() {
             const result = SearchSchema.safeParse(weatherData);
 
             if (result.success) {
+                setNotFound(false)
                 setWeather(result.data)
             }
 
